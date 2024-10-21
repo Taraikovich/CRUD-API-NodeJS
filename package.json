@@ -4,7 +4,8 @@
   "main": "dist/app.js",
   "scripts": {
     "start:dev": "npx nodemon",
-    "start:prod": "webpack --mode production && node dist/app.js"
+    "start:prod": "webpack --mode production && node dist/app.js",
+    "start:multi": "npx ts-node src/cluster.ts"
   },
   "keywords": [],
   "author": "Igor_T",
