@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/app.js",
   "scripts": {
+    "test": "jest",
     "start:dev": "npx nodemon",
     "start:prod": "webpack --mode production && node dist/app.js",
     "start:multi": "npx ts-node src/cluster.ts"

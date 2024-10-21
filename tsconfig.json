@@ -9,4 +9,7 @@
     "strict": true,
     "skipLibCheck": true
   },
+  "exclude": [
+    "__tests__"
+  ]
 }
